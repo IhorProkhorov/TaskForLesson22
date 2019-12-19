@@ -11,7 +11,7 @@ public class DBWork {
         Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/student?" +
                 "useSSL=false&" +
                 "allowPublicKeyRetrieval=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" +
-                "&user=root&password=2379822WerS");
+                "&user=root&password=root");
         Statement statement = connect.createStatement();
         return statement;
     }
